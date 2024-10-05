@@ -7,12 +7,14 @@ import Events from './components/Events';
 import Community from './components/Community';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
+import BackToTop from './components/BackToTop';
 
 
 function App() {
   return (
     <div className="App">
       <HeroSection />
+      <BackToTop />
       <AboutUs />
       <CounterSection />
       <Events />
