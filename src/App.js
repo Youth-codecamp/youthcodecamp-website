@@ -8,6 +8,8 @@ import Community from './components/Community';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
+import DonatePage from './components/DonatePage';
+
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
       <CounterSection />
       <Events />
       <Community />
+      <DonatePage />
       <Testimonials />
       <Footer />
     </div>

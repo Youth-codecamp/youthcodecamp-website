@@ -4,7 +4,7 @@
     justify-content: start;
     font-family: "Roboto", sans-serif;
     padding: 20px;
-    max-width:100%;
+    max-width: 100%;
 }
 
 .test-head {
@@ -39,7 +39,12 @@
     margin-top: 10px;
 }
 
-
+@media screen and (max-width: 768px) {
+    .saying-hero {
+        width: 100%;
+        font-size: 24px;
+    }
+}
 
 .test-body {
     display: flex;
@@ -58,6 +63,26 @@
     padding: 20px;
     gap: 20px;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .test-body-first,
+    .test-body-second,
+    .test-body-third {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .test-body {
+        flex-direction: column;
+    }
+
+    .test-body-first,
+    .test-body-second,
+    .test-body-third {
+        width: 100%;
+    }
 }
 
 .test-text,
@@ -116,28 +141,11 @@
     font-weight: 500;
 }
 
+
 #icon-message-vector-one,
 #icon-message-vector-two,
 #icon-message-vector-three {
     position: relative;
     margin-top: -35px;
     margin-left: 10px;
-}
-
-
-@media screen and (max-width: 768px) {
-    .test-body {
-        flex-direction: column;
-    }
-
-    .test-body-first,
-    .test-body-second,
-    .test-body-third {
-        width: 100%;
-    }
-
-    .saying-hero {
-        width: 100%;
-        font-size: 24px;
-    }
 }
