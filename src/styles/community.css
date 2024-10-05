@@ -1,0 +1,94 @@
+.community-page {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: rgba(197, 252, 255, 0.25);
+  }
+  
+  header {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+  }
+  
+  header p {
+    font-size: 1rem;
+    color: #8492A7;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+  }
+  
+  .join-button {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    background-color: var(--primary-color); 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .join-button:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .join-button:active {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(2px);
+  }
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    .join-button {
+      font-size: 1rem;
+      padding: 0.8rem 1.5rem;
+    }
+  }
+  
+  
+  @media (max-width: 576px) {
+    header h1 {
+      font-size: 1.75rem;
+    }
+  
+    header p {
+      font-size: 0.95rem;
+    }
+  
+    .join-button {
+      font-size: 0.95rem;
+      padding: 0.7rem 1.4rem;
+    }
+  }
+  
+  
+  @media (max-width: 400px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+  
+    header p {
+      font-size: 0.9rem;
+    }
+  
+    .join-button {
+      font-size: 0.9rem;
+      padding: 0.6rem 1.2rem;
+    }
+  }

@@ -1,0 +1,143 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    max-width:100%;
+}
+
+.test-head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.test-header {
+    color: #4EB8B9;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.saying {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.saying-hero {
+    color: #222D39;
+    font-size: 30px;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 10px;
+}
+
+
+
+.test-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.test-body-first,
+.test-body-second,
+.test-body-third {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 20px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.test-text,
+.test-text-on {
+    border-radius: 5px;
+    padding: 30px 25px;
+    gap: 10px;
+    color: #222D39;
+    text-align: left;
+}
+
+.test-text {
+    background-color: #F7F9FC;
+}
+
+.test-text-on {
+    background-color: #4EB8B9;
+    color: white;
+}
+
+.test-icon {
+    color: #DEE7EE;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.test-who {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-name {
+    color: #222D39;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.details-position {
+    color: #4EB8B9;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#icon-message-vector-one,
+#icon-message-vector-two,
+#icon-message-vector-three {
+    position: relative;
+    margin-top: -35px;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .test-body {
+        flex-direction: column;
+    }
+
+    .test-body-first,
+    .test-body-second,
+    .test-body-third {
+        width: 100%;
+    }
+
+    .saying-hero {
+        width: 100%;
+        font-size: 24px;
+    }
+}
