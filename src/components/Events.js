@@ -16,7 +16,7 @@ const Events = () => {
           </div>
           <div className="event-words">
             <h3>Hack Noel</h3>
-            <p>HackNoel is an end-of-year hackathon hosted by Youth Code Camp in the name of Lycee de Kigali.It brings together students from 10 top secondary schools in Rwanda.</p>
+            <p>HackNoel is an end-of-year hackathon hosted by Youth Code Camp, a coding club within Hack Club. It brings together students from high schools across Rwanda</p>
             <a href="https://www.hacknoel.live/" className="read-more" target="_blank" rel="noopener noreferrer">Read more</a>
           </div>
         </div>

@@ -13,7 +13,7 @@ const DonatePage = () => {
           <div className="donate-content">
             <h1 className="donate-title">Support Our Youth Code Camp</h1>
             <p className="donate-description">
-            Your donation to Youth Code Camp helps young people learn coding and join fun events like hackathons and workshops. We believe coding is an important skill for their future. With your support, we can teach coding to more youth and give them the chance to take part in exciting coding challenges. These hackathons and workshops help them learn to code, solve problems, and work as a team. By donating, you help us create a space where youth can grow their coding skills, take part in fun coding events, and build a bright future!
+            Your donation to Youth Code Camp helps young programmers to  learn coding and join fun events like hackathons and workshops. We believe coding is an important skill for their future. With your support, we can teach coding to more youth and give them the chance to take part in exciting coding challenges. These hackathons and workshops help them learn to code, solve problems, and work as a team. By donating, you help us create a space where youth can grow their coding skills, take part in fun coding events, and build a bright future!
             </p>
             
             <div className="donation-options">
