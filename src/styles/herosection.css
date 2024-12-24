@@ -9,6 +9,7 @@
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
+  background-color: rgba(197, 252, 255, 0.25);
 }
 
 .welcome-text {

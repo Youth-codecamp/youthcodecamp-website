@@ -6,6 +6,7 @@
   height: 60px;
   position: relative;
   z-index: 10;
+  background-color: rgba(197, 252, 255, 0.25);
 }
 
 .logo {

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Youth Code Camp",
+  "name": "Youth Code Camp - Coding for Young Programmers",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,5 +21,8 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "description": "Youth Code Camp is a community where young programmers come together to learn, create, and share ideas about coding and technology.",
+  "keywords": "Youth Code Camp, coding, programming, technology, learn to code, youth coding community, software development, hackathons, coding events"
 }
+
