@@ -1,28 +1,31 @@
 import React from 'react';
 import './App.css';
-import HeroSection from './components/HeroSection';
+
 import AboutUs from './components/AboutUs';
 import CounterSection from './components/CounterSection';
 import Events from './components/Events';
 import Community from './components/Community';
-import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 import BackToTop from './components/BackToTop';
-import DonatePage from './components/DonatePage';
+import HeroSection from './components/HeroSection';
+import TrustedCompanies from './components/TrustedCompanies';
+import FAQPage from './components/FaqPage';
 
 
 
 function App() {
   return (
     <div className="App">
+      <Navbar /> 
       <HeroSection />
       <BackToTop />
       <AboutUs />
       <CounterSection />
       <Events />
+      <TrustedCompanies />
       <Community />
-      <DonatePage />
-      <Testimonials />
+      <FAQPage />
       <Footer />
     </div>
   );

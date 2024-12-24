@@ -8,7 +8,7 @@ const CounterSection = () => {
       <div className="counter-item">
         <FaRocket className="counter-icon" />
         <div className="counter-text">
-          <h2>+4</h2>
+          <h2>+5</h2>
           <p>Events</p>
         </div>
       </div>
@@ -28,7 +28,7 @@ const CounterSection = () => {
       <div className="counter-item">
         <FaUser className="counter-icon" />
         <div className="counter-text">
-          <h2>+60</h2>
+          <h2>+100</h2>
           <p>Members</p>
         </div>
       </div>

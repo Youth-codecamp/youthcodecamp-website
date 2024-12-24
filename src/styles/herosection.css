@@ -1,169 +1,147 @@
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 80px;
-    padding-left: 160px;
-    padding-top: 80px;
-    padding-bottom: 90px;
-    background-color: rgba(197, 252, 255, 0.25);
-    color: #ffffff;
-    position: relative;
-    z-index: 1;
-    flex-wrap: wrap;
-}
-
-.hero-content {
-    max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--secondary-color);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
 }
 
 .welcome-text {
-    font-size: 18px;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-    position: relative;
-    font-family: var(--primary-font);
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .hero h1 {
-    font-size: 50px;
-    line-height: 1.2;
-    margin-bottom: 20px;
-    color: var(--secondary-color);
+  font-size: 56px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: var(--secondary-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .hero h1 span {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .hero p {
-    font-size: 18px;
-    margin-bottom: 40px;
-    color: #8492A7;
-    line-height: 1.5;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: var(--secondary-color);
+  line-height: 1.6;
+  max-width: 600px;
 }
 
 .hero-buttons {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .discover-btn,
 .join-btn {
-    padding: 15px 40px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    border: none;
-    transition: background-color 0.3s ease;
-    text-decoration: none;
-    white-space: nowrap;
+  padding: 15px 40px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: 'Roboto', sans-serif;
 }
 
 .discover-btn {
-    background-color: var(--primary-color);
-    color: #ffffff;
+  background-color: #4EB8B9;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(78, 184, 185, 0.5);
 }
 
 .discover-btn:hover {
-    background-color: var(--primary-color);
+  background-color: #3A9293;
+  box-shadow: 0 6px 15px rgba(78, 184, 185, 0.7);
 }
 
 .join-btn {
-    background-color: transparent;
-    border: 1px solid var(--primary-color);
-    color: #3A4B4C;
+  background-color: transparent;
+  border: 2px solid #4EB8B9;
+  color: var(--secondary-color);
+  box-shadow: 0 4px 10px rgba(78, 184, 185, 0.5);
 }
 
 .join-btn:hover {
-    background-color: var(--primary-color);
-    color: #ffffff;
+  background-color: #4EB8B9;
+  color: #ffffff;
+  box-shadow: 0 6px 15px rgba(78, 184, 185, 0.7);
 }
-
-.hero-image {
-    max-width: 45%;
-    flex-shrink: 0;
-    margin-top: 30px;
-}
-
-.hero-image img {
-    width: 100%;
-}
-
 
 @media (max-width: 1024px) {
-    .hero {
-        padding: 50px;
-        flex-direction: column;
-        text-align: center;
-    }
+  .hero {
+    padding: 50px 20px;
+  }
 
-    .hero-content {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
+  .hero h1 {
+    font-size: 48px;
+  }
 
-    .hero h1 {
-        font-size: 40px;
-    }
+  .hero p {
+    font-size: 16px;
+  }
 
-    .hero p {
-        font-size: 16px;
-        padding-right: 0;
-    }
-
-    .hero-buttons {
-        justify-content: center;
-    }
-
-    .hero-image {
-        max-width: 100%;
-    }
+  .discover-btn,
+  .join-btn {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
 }
-
 
 @media (max-width: 768px) {
-    .hero {
-        padding: 40px 20px;
-    }
+  .hero {
+    padding: 40px 20px;
+  }
 
-    .hero h1 {
-        font-size: 35px;
-    }
+  .hero h1 {
+    font-size: 40px;
+  }
 
-    .hero p {
-        font-size: 14px;
-    }
+  .hero p {
+    font-size: 14px;
+  }
 
-    .discover-btn,
-    .join-btn {
-        padding: 12px 25px;
-        font-size: 14px;
-    }
+  .discover-btn,
+  .join-btn {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
 }
 
-
 @media (max-width: 480px) {
-    .hero {
-        padding: 30px 10px;
-    }
+  .hero {
+    padding: 30px 10px;
+  }
 
-    .hero h1 {
-        font-size: 28px;
-    }
+  .hero h1 {
+    font-size: 32px;
+  }
 
-    .hero p {
-        font-size: 12px;
-    }
+  .hero p {
+    font-size: 12px;
+  }
 
-    .discover-btn,
-    .join-btn {
-        padding: 10px 20px;
-        font-size: 12px;
-    }
-
-    .hero-image img {
-        border-radius: 8px;
-    }
+  .discover-btn,
+  .join-btn {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
 }

@@ -19,9 +19,7 @@ const Navbar = () => {
         <a href="#about">About</a>
         <a href="#events">Events</a>
         <a href="#community">Community</a>
-        <a href="#donate">Donate</a>
-        <a href="#projects">Projects</a>
-        <a href="#learn" className="learn-button">Learn</a>
+        <a href="https://hcb.hackclub.com/donations/start/youth-code-camp-hackathon" target='_blank' rel="noreferrer">Donate</a>
       </div>
       <div className="menu-icon" onClick={toggleMobileMenu}>
         <i className={isMobileMenuOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
