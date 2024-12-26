@@ -4,6 +4,7 @@ import '../styles/teamsection.css';
 import image1 from '../assets/team/chaste.jpg';
 import image2 from '../assets/team/akuzwe.jpg';
 import image3 from '../assets/team/marius.jpg';
+import image4 from '../assets/team/david.jpg';
 
 const teamMembers = [
   {
@@ -23,6 +24,13 @@ const teamMembers = [
     role: 'Project Manager',
     linkedin: 'https://www.linkedin.com/in/mariuskevinikuzwe/',
     img: image3,
+  },
+
+  {
+    name: 'Ndizeye David',
+    role: 'Frontend developer',
+    linkedin: 'https://www.linkedin.com/in/',
+    img: image4,
   },
 
 ];
