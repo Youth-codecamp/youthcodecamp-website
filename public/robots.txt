@@ -1,3 +1,12 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /private/
+Disallow: /login/
+Disallow: /admin/
+Disallow: /checkout/
+Allow: /about-us/
+Allow: /events/
+Allow: /donate/
+Allow: /learn/
+Allow: /community/
+Sitemap: https://www.youthcodecamp.live/sitemap.xml
