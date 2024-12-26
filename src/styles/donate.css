@@ -1,0 +1,69 @@
+.donate-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F7F9FC;
+    color: var(--secondary-color);
+  }
+  
+  .loading-message {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loading-message p {
+    font-size: 1.2rem;
+    color: #8492A7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+
+  
+  .spinner {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid var(--primary-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin-bottom: 20px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @media (max-width: 768px) {
+    .loading-message {
+      padding: 30px;
+      width: 80%;
+    }
+  
+    .loading-message p {
+      font-size: 1rem;
+    }
+  
+    .spinner {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  

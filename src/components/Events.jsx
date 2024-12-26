@@ -8,7 +8,7 @@ const Events = () => {
       <h2 className="events-title">Join Us for Hackathons, Workshops, and More</h2>
       <div className="calendar-embed">
         <iframe
-          title="HackNoel Event Calendar"
+          title="Youth Code Camp Events Calendar"
           src="https://lu.ma/embed/calendar/cal-DsQvAnwAdgufVdE/events"
           className="responsive-iframe"
           style={{ border: '1px solid #bfcbda88', borderRadius: '4px' }}

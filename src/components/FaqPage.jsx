@@ -33,7 +33,7 @@ const FAQPage = () => {
     },
     {
       question: 'How can I contact Youth Code Camp?',
-      answer: 'You can reach us by visiting our website or sending an email to support@youthcodecamp.org',
+      answer: 'You can reach us by visiting our website or sending an email to support@youthcodecamp.live',
     },
   ];
 

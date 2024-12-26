@@ -1,33 +1,35 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
-import AboutUs from './components/AboutUs';
-import CounterSection from './components/CounterSection';
-import Events from './components/Events';
-import Community from './components/Community';
-import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
-import HeroSection from './components/HeroSection';
-import TrustedCompanies from './components/TrustedCompanies';
-import FAQPage from './components/FaqPage';
 
-
+import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
+import Events from './pages/Event';
+import Learn from './pages/Learn';
+import Donate from './pages/Donate';
+import Community from './pages/Community';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar /> 
-      <HeroSection />
-      <BackToTop />
-      <AboutUs />
-      <CounterSection />
-      <Events />
-      <TrustedCompanies />
-      <Community />
-      <FAQPage />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/learn" element={<Learn />} />
+          <Route path="/community" element={<Community />} />
+          <Route path="/donate" element={<Donate />} />
+        </Routes>
+        <BackToTop />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

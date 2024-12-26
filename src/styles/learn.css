@@ -1,0 +1,52 @@
+.learn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F7F9FC;
+    padding: 20px;
+  }
+  
+  .learn-content {
+    text-align: center;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .learn-heading {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .learn-paragraph {
+    font-size: 1.2rem;
+    color: #8492A7;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .learn-heading {
+      font-size: 2rem;
+    }
+    
+    .learn-paragraph {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .learn-heading {
+      font-size: 1.8rem;
+    }
+    
+    .learn-paragraph {
+      font-size: 0.9rem;
+    }
+  }
+  

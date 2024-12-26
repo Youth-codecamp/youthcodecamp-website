@@ -15,11 +15,11 @@ const Navbar = () => {
         <img src={logo} alt="Youth Code Camp Logo" />
       </div>
       <div className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#events">Events</a>
-        <a href="#community">Community</a>
-        <a href="https://hcb.hackclub.com/donations/start/youth-code-camp-hackathon" target='_blank' rel="noreferrer">Donate</a>
+        <a href="/">Home</a>
+        <a href="/about-us">About Us</a>
+        <a href="/events">Events</a>
+        <a href="/donate">Donate</a>
+        <a href="/learn">Learn</a>
       </div>
       <div className="menu-icon" onClick={toggleMobileMenu}>
         <i className={isMobileMenuOpen ? 'fas fa-times' : 'fas fa-bars'}></i>

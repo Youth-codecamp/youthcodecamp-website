@@ -9,7 +9,7 @@ import logo5 from '../assets/trusted/GDG_Kigali_Logo.png';
 const TrustedCompanies = () => {
   return (
     <section className="trusted-companies" id="companies">
-      <h2 className="trusted-title">Companies That Trust Us</h2>
+      <h2 className="trusted-title">Our Trusted Partners</h2>
       <div className="logo-carousel">
         <a href="https://www.example1.com" target="_blank" rel="noopener noreferrer">
           <img src={logo1} alt="BKTechouse" className="company-logo" />
