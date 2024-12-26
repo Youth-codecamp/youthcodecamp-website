@@ -28,8 +28,8 @@ const teamMembers = [
 
   {
     name: 'Ndizeye David',
-    role: 'Frontend developer',
-    linkedin: 'https://www.linkedin.com/in/',
+    role: 'Backend developer',
+    linkedin: 'https://www.linkedin.com/in/david-me-960844343/',
     img: image4,
   },
 
