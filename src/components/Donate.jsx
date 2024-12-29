@@ -7,7 +7,7 @@ const Donate = () => {
       <h1>Support Us</h1>
       <p>Your donations help us provide resources and opportunities for young coders.</p>
       <a
-        href="https://hcb.hackclub.com/donations/start/youth-code-camp-hackathon"
+        href="https://hcb.hackclub.com/donations/start/youth-code-camp"
         target="_blank"
         rel="noreferrer"
         className="donate-button"
