@@ -4,7 +4,8 @@ import '../styles/teamsection.css';
 import image1 from '../assets/team/chaste.jpg';
 import image2 from '../assets/team/akuzwe.jpg';
 import image3 from '../assets/team/marius.jpg';
-import image4 from '../assets/team/david.jpg';
+import image4 from '../assets/team/shema.jpg';
+import image5 from '../assets/team/vain.jpg';
 
 const teamMembers = [
   {
@@ -20,17 +21,23 @@ const teamMembers = [
     img: image2,
   },
   {
-    name: 'marius kevin',
+    name: 'Marius Kevin',
     role: 'Project Manager',
     linkedin: 'https://www.linkedin.com/in/mariuskevinikuzwe/',
     img: image3,
   },
 
   {
-    name: 'Ndizeye David',
+    name: 'Paulin Shema',
     role: 'Full Stack developer',
-    linkedin: 'https://www.linkedin.com/in/david-me-960844343/',
+    linkedin: 'https://www.linkedin.com/in/paulin-shema/',
     img: image4,
+  },
+  {
+    name: 'Michel Vainqueur',
+    role: 'Frontend developer',
+    linkedin: 'https://www.linkedin.com/in/vainqueur-niyonyungu/',
+    img: image5,
   },
 
 ];
