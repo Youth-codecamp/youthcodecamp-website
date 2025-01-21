@@ -5,7 +5,9 @@ import image1 from '../assets/team/chaste.jpg';
 import image2 from '../assets/team/akuzwe.jpg';
 import image3 from '../assets/team/marius.jpg';
 import image4 from '../assets/team/shema.jpg';
-import image5 from '../assets/team/vain.jpg';
+import image5 from '../assets/team/johnson.jpg';
+import image6 from '../assets/team/Kevine.png';
+import image7 from '../assets/team/vain.jpg';
 
 const teamMembers = [
   {
@@ -30,14 +32,29 @@ const teamMembers = [
   {
     name: 'Paulin Shema',
     role: 'Full Stack developer',
-    linkedin: 'https://www.linkedin.com/in/paulin-shema/',
+    linkedin: 'https://www.linkedin.com/in/mugisha-johnson-44118a22a/',
     img: image4,
   },
+
+  {
+    name: 'Mugisha Johnson',
+    role: 'Event Organizer',
+    linkedin: 'https://www.linkedin.com/in/mugisha-johnson-44118a22a/',
+    img: image5,
+  },
+
+  {
+    name: 'Ishimwe Kevine',
+    role: 'Product Designer',
+    linkedin: 'https://www.linkedin.com/in/ishimwe-kevine-3107a8233/',
+    img: image6,
+  },
+
   {
     name: 'Michel Vainqueur',
     role: 'Frontend developer',
     linkedin: 'https://www.linkedin.com/in/vainqueur-niyonyungu/',
-    img: image5,
+    img: image7,
   },
 
 ];
