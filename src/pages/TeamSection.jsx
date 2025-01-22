@@ -8,6 +8,7 @@ import image4 from '../assets/team/shema.jpg';
 import image5 from '../assets/team/johnson.jpg';
 import image6 from '../assets/team/Kevine.png';
 import image7 from '../assets/team/vain.jpg';
+import image8 from '../assets/team/caleb.jpg';
 
 const teamMembers = [
   {
@@ -55,6 +56,13 @@ const teamMembers = [
     role: 'Frontend developer',
     linkedin: 'https://www.linkedin.com/in/vainqueur-niyonyungu/',
     img: image7,
+  },
+
+  {
+    name: 'Ishimwe Caleb',
+    role: 'Frontend developer',
+    linkedin: 'https://www.linkedin.com/in/caleb-ishimwe-ganza-021076261/',
+    img: image8,
   },
 
 ];
