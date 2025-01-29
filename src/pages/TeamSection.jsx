@@ -11,6 +11,7 @@ import image7 from '../assets/team/vain.jpg';
 import image8 from '../assets/team/caleb.jpg';
 import image9 from '../assets/team/tola.jpg';
 import image10 from '../assets/team/chris.jpg';
+import image11 from '../assets/team/david.jpg';
 
 const teamMembers = [
   {
@@ -78,6 +79,12 @@ const teamMembers = [
     role: 'Finance Manager',
     linkedin: 'https://www.linkedin.com/',
     img: image10,
+  },
+  {
+    name: 'Ndizeye David',
+    role: 'Full Stack developer',
+    linkedin: 'https://www.linkedin.com/in/david-ndizeye-960844343/',
+    img: image11,
   },
 
 ];
