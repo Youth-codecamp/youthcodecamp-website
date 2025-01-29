@@ -9,6 +9,8 @@ import image5 from '../assets/team/johnson.jpg';
 import image6 from '../assets/team/Kevine.png';
 import image7 from '../assets/team/vain.jpg';
 import image8 from '../assets/team/caleb.jpg';
+import image9 from '../assets/team/tola.jpg';
+import image10 from '../assets/team/chris.jpg';
 
 const teamMembers = [
   {
@@ -63,6 +65,19 @@ const teamMembers = [
     role: 'Frontend developer',
     linkedin: 'https://www.linkedin.com/in/caleb-ishimwe-ganza-021076261/',
     img: image8,
+  },
+
+  {
+    name: 'Caleb Tola',
+    role: 'Community Manager',
+    linkedin: 'https://www.linkedin.com/in/caleb-tola-b75b63328/',
+    img: image9,
+  },
+  {
+    name: 'Shema Chris',
+    role: 'Finance Manager',
+    linkedin: 'https://www.linkedin.com/',
+    img: image10,
   },
 
 ];
