@@ -1,276 +1,275 @@
 .about-us-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 3rem;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3rem;
+  margin-top: 50px;
 }
 
 .image-container {
-    flex: 1;
-    padding-right: 3rem;
+  flex: 1;
+  padding-right: 3rem;
 }
 
 .image-container img {
-    width: 100%;
-    border-radius: 15px;
+  width: 100%;
+  border-radius: 15px;
 }
 
 .content-container {
-    flex: 1.26;
-    display: flex;
-    flex-direction: column;
-    line-height: 1.8;}
+  flex: 1.26;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.8;}
 
 .content-container h3 {
-    color: var(--primary-color);
-    font-size: 16px;
-    margin: 0px;
+  color: var(--primary-color);
+  font-size: 16px;
+  margin: 0px;
 }
 
 .content-container h1 {
-    font-size: 30px;
-    color: var(--secondary-color);
-    font-weight: bold;
-    margin-top: 0.5rem; 
-    margin-bottom: 1.5rem;
+  font-size: 30px;
+  color: var(--secondary-color);
+  font-weight: bold;
+  margin-top: 0.5rem; 
+  margin-bottom: 1.5rem;
 }
 
 .content-container p {
-    margin-bottom: 1.5rem;
-    font-size: 16px;
-    color: #8492A7;
-    margin-right: 140px;
+  margin-bottom: 1.5rem;
+  font-size: 16px;
+  color: #8492A7;
+  margin-right: 140px;
 }
 
 .features {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1.5rem; 
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem; 
 }
 
 .feature-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .feature-item i {
-    color: var(--primary-color);
-    margin-right: 1rem;
-    font-size: 1.2rem;
+  color: var(--primary-color);
+  margin-right: 1rem;
+  font-size: 1.2rem;
 }
 
 .feature-item span {
-    font-size: 16px;
-    color: var(--secondary-color);
+  font-size: 16px;
+  color: var(--secondary-color);
 }
 
 
 @media (max-width: 1024px) {
-    .about-us-container {
-        flex-direction: column;
-        text-align: center;
-        padding: 2rem;
-    }
+  .about-us-container {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem;
+  }
 
-    .image-container {
-        padding-right: 0;
-        margin-bottom: 2rem;
-    }
+  .image-container {
+      padding-right: 0;
+      margin-bottom: 2rem;
+  }
 
-    .content-container {
-        align-items: center;
-    }
+  .content-container {
+      align-items: center;
+  }
 
-    .content-container h1 {
-        font-size: 2rem;
-    }
+  .content-container h1 {
+      font-size: 2rem;
+  }
 
-    .content-container p {
-        font-size: 1rem;
-        margin-right: 0;
-    }
+  .content-container p {
+      font-size: 1rem;
+      margin-right: 0;
+  }
 
-    .feature-item span {
-        font-size: 1rem;
-    }
+  .feature-item span {
+      font-size: 1rem;
+  }
 }
 
 @media (max-width: 768px) {
-    .about-us-container {
-        padding: 1rem;
-    }
+  .about-us-container {
+      padding: 1rem;
+  }
 
-    .content-container h1 {
-        font-size: 1.75rem;
-    }
+  .content-container h1 {
+      font-size: 1.75rem;
+  }
 
-    .content-container p {
-        font-size: 0.95rem;
-    }
+  .content-container p {
+      font-size: 0.95rem;
+  }
 
-    .feature-item i {
-        font-size: 1rem;
-    }
+  .feature-item i {
+      font-size: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
-    .content-container h1 {
-        font-size: 1.5rem;
-    }
+  .content-container h1 {
+      font-size: 1.5rem;
+  }
 
-    .content-container p {
-        font-size: 0.9rem;
-    }
+  .content-container p {
+      font-size: 0.9rem;
+  }
 
-    .feature-item span {
-        font-size: 0.9rem;
-    }
+  .feature-item span {
+      font-size: 0.9rem;
+  }
 }
 
 
 .additional-content {
-    background-color: white;
-    border-radius: 12px;
-    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
-    padding: 2.5rem;
-    max-width: 1100px;
-    margin: 3rem auto;
-    font-family: 'Roboto', sans-serif;
-    color: #8492A7;
-    line-height: 1.6;
-    text-align: left;
-  }
-  
-  .intro-text {
-    font-size: 1.1rem;
-    color: var(--secondary-color);
-    margin-bottom: 2rem;
-    text-align: justify;
-  }
-  
-  .section-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--secondary-color);
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: left;
-  }
-  
-  .focus-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-  
-  .focus-card {
-    border-radius: 12px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  max-width: 1100px;
+  margin: 3rem auto;
+  font-family: 'Roboto', sans-serif;
+  color: #8492A7;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.focus-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.focus-card {
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.focus-card:hover {
+  transform: translateY(-10px);
+}
+
+.focus-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.focus-description {
+  font-size: 1rem;
+  color: #8492A7;
+  line-height: 1.6;
+}
+
+
+
+@media (max-width: 1024px) {
+  .additional-content {
     padding: 2rem;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
   }
-  
-  .focus-card:hover {
-    transform: translateY(-10px);
+
+  .section-title {
+    font-size: 1.4rem;
   }
-  
+
+  .focus-cards {
+    gap: 1.5rem;
+  }
+
+  .focus-card {
+    padding: 1.5rem;
+  }
+
   .focus-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: var(--primary-color);
-    margin-bottom: 1rem;
+    font-size: 1.1rem;
   }
-  
+
+  .focus-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .additional-content {
+    padding: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .focus-cards {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .focus-card {
+    padding: 1.2rem;
+  }
+
+  .focus-title {
+    font-size: 1.1rem;
+  }
+
   .focus-description {
     font-size: 1rem;
-    color: #8492A7;
-    line-height: 1.6;
   }
-  
+}
 
-  
-  @media (max-width: 1024px) {
-    .additional-content {
-      padding: 2rem;
-    }
-  
-    .section-title {
-      font-size: 1.4rem;
-    }
-  
-    .focus-cards {
-      gap: 1.5rem;
-    }
-  
-    .focus-card {
-      padding: 1.5rem;
-    }
-  
-    .focus-title {
-      font-size: 1.1rem;
-    }
-  
-    .focus-description {
-      font-size: 0.95rem;
-    }
+@media (max-width: 480px) {
+  .additional-content {
+    padding: 1rem;
   }
-  
-  @media (max-width: 768px) {
-    .additional-content {
-      padding: 1.5rem;
-    }
-  
-    .section-title {
-      font-size: 1.3rem;
-    }
-  
-    .focus-cards {
-      grid-template-columns: 1fr;
-      gap: 2rem;
-    }
-  
-    .focus-card {
-      padding: 1.2rem;
-    }
-  
-    .focus-title {
-      font-size: 1.1rem;
-    }
-  
-    .focus-description {
-      font-size: 1rem;
-    }
+
+  .section-title {
+    font-size: 1.2rem;
   }
-  
-  @media (max-width: 480px) {
-    .additional-content {
-      padding: 1rem;
-    }
-  
-    .section-title {
-      font-size: 1.2rem;
-    }
-  
-    .focus-cards {
-      gap: 1.2rem;
-    }
-  
-    .focus-card {
-      padding: 1rem;
-    }
-  
-    .focus-title {
-      font-size: 1rem;
-    }
-  
-    .focus-description {
-      font-size: 0.95rem;
-    }
+
+  .focus-cards {
+    gap: 1.2rem;
   }
-  
+
+  .focus-card {
+    padding: 1rem;
+  }
+
+  .focus-title {
+    font-size: 1rem;
+  }
+
+  .focus-description {
+    font-size: 0.95rem;
+  }
+}
