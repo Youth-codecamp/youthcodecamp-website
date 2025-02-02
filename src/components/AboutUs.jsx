@@ -5,7 +5,7 @@ const AboutUs = () => {
     return (
         <div className="about-us-container" id="about">
             <div className="image-container">
-                <img src={require('../assets/about.JPG')} alt="Youth Code Camp" />
+                <img src={require('../assets/about.jpg')} alt="Youth Code Camp" />
             </div>
             <div className="content-container">
                 <h3>ABOUT US</h3>
