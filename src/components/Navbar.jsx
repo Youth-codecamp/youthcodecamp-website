@@ -1,28 +1,62 @@
-import React, { useState } from 'react';
-import '../styles/navbar.css';
-import logo from '../assets/Logo.png';
+import React, { useState } from "react";
+import "../styles/navbar.css";
+import logo from "../assets/Logo.png";
 
 const Navbar = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+  const toggleOpen = () => {
+    setIsOpen(true);
   };
+
+  const toggleClose = () => {
+    setIsOpen(false);
+  };
+
+  const navigationLinks = [
+    {
+      label: "Home",
+      href: "/",
+    },
+    {
+      label: "About Us",
+      href: "/about-us",
+    },
+    {
+      label: "Events",
+      href: "/events",
+    },
+    {
+      label: "Donate",
+      href: "/donate",
+    },
+    {
+      label: "Learn",
+      href: "/learn",
+    },
+  ];
 
   return (
     <nav className="navbar">
       <div className="logo">
         <img src={logo} alt="Youth Code Camp Logo" />
       </div>
-      <div className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
-        <a href="/">Home</a>
-        <a href="/about-us">About Us</a>
-        <a href="/events">Events</a>
-        <a href="/donate">Donate</a>
-        <a href="/learn">Learn</a>
+      <div className={`nav-links ${isOpen && "active"}`}>
+        <ul>
+          <div className="close-icon" onClick={toggleClose}>
+            <i className="fa-solid fa-times" />
+          </div>
+          {navigationLinks.map((link, index) => (
+            <li key={index}>
+              <a href={link.href} className="nav-link">
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
-      <div className="menu-icon" onClick={toggleMobileMenu}>
-        <i className={isMobileMenuOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
+      <div className="menu-button" onClick={toggleOpen}>
+        <i className="fa-solid fa-bars"></i>
       </div>
     </nav>
   );
