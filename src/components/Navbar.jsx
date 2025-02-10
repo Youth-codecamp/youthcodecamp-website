@@ -14,26 +14,11 @@ const Navbar = () => {
   };
 
   const navigationLinks = [
-    {
-      label: "Home",
-      href: "/",
-    },
-    {
-      label: "About Us",
-      href: "/about-us",
-    },
-    {
-      label: "Events",
-      href: "/events",
-    },
-    {
-      label: "Donate",
-      href: "/donate",
-    },
-    {
-      label: "Learn",
-      href: "/learn",
-    },
+    { label: "Home", href: "/" },
+    { label: "About Us", href: "/about-us" },
+    { label: "Events", href: "/events" },
+    { label: "Projects", href: "/projects" },
+    { label: "Learn", href: "/learn" },
   ];
 
   return (
@@ -41,10 +26,10 @@ const Navbar = () => {
       <div className="logo">
         <img src={logo} alt="Youth Code Camp Logo" />
       </div>
-      <div className={`nav-links ${isOpen && "active"}`}>
+      <div className={`nav-links ${isOpen ? "active" : ""}`}>
         <ul>
           <div className="close-icon" onClick={toggleClose}>
-            <i className="fa-solid fa-times" />
+            <i className="fa-solid fa-times"></i>
           </div>
           {navigationLinks.map((link, index) => (
             <li key={index}>
