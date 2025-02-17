@@ -1,7 +1,10 @@
-import React from 'react';
-import '../styles/faqpage.css';
+import React, { useState } from 'react';
+import "../styles/faqpage.css";
 
 const FAQPage = () => {
+  
+  const [activeIndex, setActiveIndex] = useState(null);
+
   const faqs = [
     {
       question: 'What is Youth Code Camp?',
@@ -20,7 +23,7 @@ const FAQPage = () => {
       answer: 'Most of our events are free, but some might require a small fee to help with event costs. We aim to keep our events affordable and accessible to everyone.',
     },
     {
-      question: ' How does Youth Code Camp support projects?',
+      question: 'How does Youth Code Camp support projects?',
       answer: 'We mainly support projects showcased in our hackathons. For participants who want to continue developing their projects, we help them find sponsors and provide hosting for their projects.',
     },
     {
@@ -37,14 +40,28 @@ const FAQPage = () => {
     },
   ];
 
+  const toggleFAQ = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
   return (
     <section className="faq-section" id="FAQ">
+      <div className="faq-background"></div>
       <h1 className="faq-title">Frequently Asked Questions</h1>
       <div className="faq-container">
         {faqs.map((faq, index) => (
-          <div key={index} className="faq-item">
-            <h2 className="faq-question">{faq.question}</h2>
-            <p className="faq-answer">{faq.answer}</p>
+          <div
+            key={index}
+            className={`faq-item ${activeIndex === index ? 'active' : ''}`}
+            onClick={() => toggleFAQ(index)}
+          >
+            <div className="faq-question-container">
+              <h2 className="faq-question">{faq.question}</h2>
+              <span className="faq-icon">{activeIndex === index ? '−' : '+'}</span>
+            </div>
+            <div className={`faq-answer-container ${activeIndex === index ? 'show' : ''}`}>
+              <p className="faq-answer">{faq.answer}</p>
+            </div>
           </div>
         ))}
       </div>
