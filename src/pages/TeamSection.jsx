@@ -4,8 +4,6 @@ import '../styles/teamsection.css';
 import image1 from '../assets/team/chaste.jpg';
 import image2 from '../assets/team/akuzwe.jpg';
 import image3 from '../assets/team/marius.jpg';
-import image4 from '../assets/team/shema.jpg';
-import image5 from '../assets/team/johnson.jpg';
 import image6 from '../assets/team/Kevine.png';
 import image7 from '../assets/team/vain.jpg';
 import image8 from '../assets/team/caleb.jpg';
@@ -31,20 +29,6 @@ const teamMembers = [
     role: 'Project Manager',
     linkedin: 'https://www.linkedin.com/in/mariuskevinikuzwe/',
     img: image3,
-  },
-
-  {
-    name: 'Paulin Shema',
-    role: 'Full Stack developer',
-    linkedin: 'https://www.linkedin.com/in/mugisha-johnson-44118a22a/',
-    img: image4,
-  },
-
-  {
-    name: 'Mugisha Johnson',
-    role: 'Event Organizer',
-    linkedin: 'https://www.linkedin.com/in/mugisha-johnson-44118a22a/',
-    img: image5,
   },
 
   {
