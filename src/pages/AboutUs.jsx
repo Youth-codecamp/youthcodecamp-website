@@ -9,10 +9,6 @@ const AboutUs = () => {
       <About />
 
       <div className="additional-content">
-        <p className="intro-text">
-          Youth Code Camp, founded by Shyaka Chaste, is here to help young people learn programming in an engaging and fun way. 
-          We organize exciting events and activities where they can explore coding, collaborate, and build amazing projects.
-        </p>
 
         <p className="section-title">Our Focus Areas</p>
 

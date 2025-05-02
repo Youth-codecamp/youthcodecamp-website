@@ -3,13 +3,11 @@ import { FaLinkedin } from 'react-icons/fa';
 import '../styles/teamsection.css';
 import image1 from '../assets/team/chaste.jpg';
 import image2 from '../assets/team/akuzwe.jpg';
-import image3 from '../assets/team/marius.jpg';
-import image6 from '../assets/team/Kevine.png';
-import image7 from '../assets/team/vain.jpg';
-import image8 from '../assets/team/caleb.jpg';
-import image9 from '../assets/team/tola.jpg';
-import image10 from '../assets/team/chris.jpg';
-import image11 from '../assets/team/david.jpg';
+import image3 from '../assets/team/vain.jpg';
+import image4 from '../assets/team/caleb.jpg';
+import image5 from '../assets/team/tola.jpg';
+import image6 from '../assets/team/chris.jpg';
+import image7 from '../assets/team/david.jpg';
 
 const teamMembers = [
   {
@@ -24,51 +22,39 @@ const teamMembers = [
     linkedin: 'https://www.linkedin.com/in/gisele-akuzwe-migisha-40426a256/',
     img: image2,
   },
-  {
-    name: 'Marius Kevin',
-    role: 'Project Manager',
-    linkedin: 'https://www.linkedin.com/in/mariuskevinikuzwe/',
-    img: image3,
-  },
 
-  {
-    name: 'Ishimwe Kevine',
-    role: 'Product Designer',
-    linkedin: 'https://www.linkedin.com/in/ishimwe-kevine-3107a8233/',
-    img: image6,
-  },
 
   {
     name: 'Michel Vainqueur',
     role: 'Frontend developer',
     linkedin: 'https://www.linkedin.com/in/vainqueur-niyonyungu/',
-    img: image7,
+    img: image3,
   },
 
   {
     name: 'Ishimwe Caleb',
     role: 'Frontend developer',
     linkedin: 'https://www.linkedin.com/in/caleb-ishimwe-ganza-021076261/',
-    img: image8,
+    img: image4,
   },
 
   {
     name: 'Caleb Tola',
     role: 'Community Manager',
     linkedin: 'https://www.linkedin.com/in/caleb-tola-b75b63328/',
-    img: image9,
+    img: image5,
   },
   {
     name: 'Shema Chris',
     role: 'Finance Manager',
     linkedin: 'https://www.linkedin.com/',
-    img: image10,
+    img: image6,
   },
   {
     name: 'Ndizeye David',
     role: 'Full Stack developer',
     linkedin: 'https://www.linkedin.com/in/david-ndizeye-960844343/',
-    img: image11,
+    img: image7,
   },
 
 ];

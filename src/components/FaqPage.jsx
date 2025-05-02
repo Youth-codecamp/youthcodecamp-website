@@ -9,7 +9,7 @@ const FAQPage = () => {
     },
     {
       question: 'Who can join Youth Code Camp events?',
-      answer: 'Youth Code Camp is open to young people aged 15-24 who are interested in coding and technology. Whether you are a beginner or already know how to code, you are welcome to join our community and events!',
+      answer: 'Youth Code Camp is open to young people aged 14-24 who are interested in coding and technology. Whether you are a beginner or already know how to code, you are welcome to join our community and events!',
     },
     {
       question: 'What kind of events does Youth Code Camp organize?',

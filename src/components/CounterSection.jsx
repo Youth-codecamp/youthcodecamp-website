@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRocket, FaProjectDiagram, FaUser } from 'react-icons/fa';
+import { FaRocket, FaSchool, FaUser } from 'react-icons/fa';
 import '../styles/countersection.css';
 
 const CounterSection = () => {
@@ -8,7 +8,7 @@ const CounterSection = () => {
       <div className="counter-item">
         <FaRocket className="counter-icon" />
         <div className="counter-text">
-          <h2>+5</h2>
+          <h2>+6</h2>
           <p>Events</p>
         </div>
       </div>
@@ -16,10 +16,10 @@ const CounterSection = () => {
       <div className="divider"></div>
 
       <div className="counter-item">
-        <FaProjectDiagram className="counter-icon" />
+        <FaSchool className="counter-icon" />
         <div className="counter-text">
-          <h2>+2</h2>
-          <p>Projects</p>
+          <h2>+1</h2>
+          <p>Schools</p>
         </div>
       </div>
 
@@ -28,7 +28,7 @@ const CounterSection = () => {
       <div className="counter-item">
         <FaUser className="counter-icon" />
         <div className="counter-text">
-          <h2>+100</h2>
+          <h2>+150</h2>
           <p>Members</p>
         </div>
       </div>
