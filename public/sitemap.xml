@@ -7,8 +7,8 @@
 
 
 <url>
-  <loc>https://www.youthcodecamp.live</loc>
-  <lastmod>2024-12-26T00:21:26+00:00</lastmod>
+  <loc>https://www.youthcodecamp.live/</loc>
+  <lastmod>2025-05-03T11:27:54+00:00</lastmod>
 </url>
 
 <url>
@@ -21,10 +21,6 @@
   <lastmod>2024-12-26T00:21:26+00:00</lastmod>
 </url>
 
-<url>
-  <loc>https://www.youthcodecamp.live/projects</loc>
-  <lastmod>2024-12-26T00:21:26+00:00</lastmod>
-</url>
 
 <url>
   <loc>https://www.youthcodecamp.live/learn</loc>
@@ -33,6 +29,16 @@
 
 <url>
   <loc>https://www.youthcodecamp.live/community</loc>
+  <lastmod>2024-12-26T00:21:26+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://www.youthcodecamp.live/projects</loc>
+  <lastmod>2024-12-26T00:21:26+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://www.youthcodecamp.live/learn</loc>
   <lastmod>2024-12-26T00:21:26+00:00</lastmod>
 </url>
 </urlset>
