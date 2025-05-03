@@ -18,7 +18,7 @@ const teamMembers = [
   },
   {
     name: 'Akuzwe Gisele',
-    role: 'Vice President',
+    role: 'Technical Lead ',
     linkedin: 'https://www.linkedin.com/in/gisele-akuzwe-migisha-40426a256/',
     img: image2,
   },

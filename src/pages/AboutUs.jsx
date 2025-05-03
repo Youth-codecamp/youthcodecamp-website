@@ -16,7 +16,7 @@ const AboutUs = () => {
           <div className="focus-card">
             <h3 className="focus-title">Hackathons</h3>
             <p className="focus-description">
-              Inspiring events like HackNoel, where students solve real-world problems in healthcare, education, and community services, and Hack With Me, designed to promote creativity and teamwork.
+            At Youth Code Camp, we organize hackathons that bring students together to build projects and solve real-world problems. 
             </p>
           </div>
           <div className="focus-card">
